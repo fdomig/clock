@@ -1,6 +1,6 @@
 # Word Clock
 
-![build status](https://travis-ci.org/fdomig/clock.svg?branch=master)
+[![Build Status](https://travis-ci.org/fdomig/clock.svg?branch=master)](https://travis-ci.org/fdomig/clock)
 
 A clock returning time as a string written in Kotlin and tested with JUnit 5. E.g. `07:43:12` will be returned as `It is quarter to eight`.
 
