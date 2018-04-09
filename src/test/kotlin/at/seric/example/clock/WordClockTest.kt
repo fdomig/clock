@@ -18,7 +18,7 @@ class WordClockTest {
         assertEquals("It is twelve o'clock", clock.get(LocalTime.of(0, 0)))
         assertEquals("It is twelve o'clock", clock.get(LocalTime.of(12, 0)))
         assertEquals("It is seven o'clock", clock.get(LocalTime.of(18, 57, 30)))
-        assertEquals("It is three o'clock", clock.get(LocalTime.of(14, 57, 30)))
+        assertEquals("It is three o'clock", clock.get(LocalTime.of(14, 59, 59)))
         assertEquals("It is three o'clock", clock.get(LocalTime.of(3, 2, 29)))
     }
 

@@ -23,7 +23,7 @@ class WordClock {
     fun get(time: LocalTime = LocalTime.now()): String {
 
         val hourOffset = when (time.minute * 60 + time.second) {
-            in 1950..3499 -> 1
+            in 1950..3599 -> 1
             else -> 0
         }
 
